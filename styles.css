@@ -1,0 +1,419 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FFFFFF;
+}
+
+button, a {
+  display: inline-block;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.nav-item {
+  padding: 0 25px;
+}
+
+.main-container {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)),
+    url(images/main.png);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.main-title {
+  padding: 10% 10% 5% 10%;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.main-button {
+  background: #708332;
+  border-radius: 2px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 12px 20px;
+  margin-top: 20px;
+}
+
+.main-button:hover {
+  color: #FFFFFF;
+}
+
+.mountain-image {
+  width: 56%;
+  position: absolute;
+  top: 80%;
+}
+
+.reach-title {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #283618;
+  padding: 15% 0 5% 0;
+}
+
+.reach-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  color: #444444;
+  margin-bottom: 10%;
+}
+
+.reach-button {
+  background: #283618;
+  border-radius: 2px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.reach-button:hover {
+  color: #FFFFFF;
+}
+
+.charters-container {
+  margin-top: 10%;
+}
+
+.charters-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #283618;
+}
+
+.charters-text {
+  font-family: Open Sans;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  text-align: center;
+  color: #444444;
+  padding: 2% 29% 5% 29%;
+}
+
+.card {
+  display: inline-block;
+  transition: .3s;
+}
+
+button:hover, a:hover, .card:hover {
+  transform: translateY(-8px);
+  opacity: 0.7;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.card {
+  border: none;
+}
+
+.vancouver {
+  background-image: url(images/vancouver.png);
+}
+
+.squamish {
+  background-image: url(images/squamish.png);
+}
+
+.pemberton {
+  background-image: url(images/pemberton.png);
+}
+
+.tofino {
+  background-image: url(images/tofino.png);
+}
+
+.ucluelet {
+  background-image: url(images/ucluelet.png);
+}
+
+.victoria {
+  background-image: url(images/victoria.png);
+}
+
+.col-city {
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.city-name {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.city {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.book-now {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+.book-trip {
+  width: 220px;
+  height: 36px;
+  background: #283618;
+  border-radius: 2px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin-top: 5%;
+}
+
+footer {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  background: #152700;
+  text-align: center;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.footer-item {
+  margin: 3% 5% 2% 5%;
+}
+
+.tel {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.email {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.created-by {
+  padding-bottom: 2%;
+  color: #EEEEEE;
+  font-size: 0.7rem;
+}
+
+li {
+  display: inline-block;
+}
+
+.contact-form {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.form-close-btn {
+  font-size: 2rem;
+  color: #FFFFFF;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: .3s;
+  outline: none;
+}
+
+.form-close-btn:hover {
+  transition: .4s;
+  transform: rotate(90deg);
+}
+
+.form-title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #FFFFFF;
+  margin-top: 8%;
+}
+
+.text-input {
+  color: #FFFFFF;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px;
+  border-style: none none solid none;
+  border-color: #FFFFFF;
+  background-color: transparent;
+}
+
+::placeholder {
+  color: #E1E8EB;
+}
+
+.input-1, .input-2 {
+  display: inline-block;
+  margin: 2%;
+  background-color: transparent;
+}
+
+.message-area {
+  width: 100%;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding: 5px;
+  background-color: transparent;
+  margin-top: 3%;
+}
+
+.btn-form {
+  width: 150px;
+  height: 35px;
+  background: #405924;
+  border-radius: 2px;
+  float: right;
+  margin-top: 15px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+}
+
+.contact-container {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+  top: -1000px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  background: rgba(254, 252, 252, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow-y: scroll;
+  padding: 60px 15px;
+}
+
+.contact-content {
+  width: 80%;
+  max-width: 100%;
+  padding: 5% 7%;
+  background-image:
+    linear-gradient(rgba(36, 43, 28, 0.9),
+      rgba(36, 43, 28, 0.9)),
+    url(images/form.png);
+  border-radius: 3px;
+  position: relative;
+  box-shadow: 0 5px 15px black;
+}
+
+.contact-active {
+  position: fixed;
+  top: 0;
+  visibility: visible;
+  opacity: 1;
+  transition: .3s;
+}
+
+@media (max-width: 1028px) {
+  .main-title {
+    padding: 25% 10% 5% 10%;
+  }
+
+  .reach-title {
+    text-align: center;
+  }
+
+  .reach-title {
+    text-align: center;
+  }
+
+  .mountain-image {
+    position: static;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  .charters-container {
+    margin-top: 20%;
+  }
+
+  .charters-text {
+    padding: 5%;
+  }
+
+  .book-trip {
+    margin-top: 15%;
+    margin-bottom: 20%;
+  }
+
+  .footer-item {
+    font-size: 0.5rem;
+    line-height: 1rem;
+    margin: 7% 2% 5% 2%;
+  }
+}
