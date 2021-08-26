@@ -220,32 +220,14 @@ footer {
   margin-top: 10%;
 }
 
-.footer-item {
-  margin: 3% 5% 2% 5%;
-}
-
-.tel {
-  font-size: 0.8rem;
-  line-height: 1rem;
-  letter-spacing: 2px;
-  color: #FFFFFF;
-}
-
-.email {
-  font-size: 0.8rem;
-  line-height: 1rem;
-  letter-spacing: 2px;
-  color: #FFFFFF;
+.brand-img {
+  padding: 3%;
 }
 
 .created-by {
   padding-bottom: 2%;
   color: #EEEEEE;
   font-size: 0.7rem;
-}
-
-li {
-  display: inline-block;
 }
 
 .contact-form {
@@ -325,8 +307,8 @@ li {
 }
 
 .btn-form {
-  width: 150px;
-  height: 35px;
+  width: 160px;
+  height: 36px;
   background: #405924;
   border-radius: 2px;
   float: right;
@@ -334,8 +316,8 @@ li {
   font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
-  font-size: 1rem;
-  line-height: 1.2rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
   letter-spacing: 2px;
   color: #FFFFFF;
 }
@@ -411,9 +393,4 @@ li {
     margin-bottom: 20%;
   }
 
-  .footer-item {
-    font-size: 0.5rem;
-    line-height: 1rem;
-    margin: 7% 2% 5% 2%;
-  }
 }
