@@ -26,8 +26,8 @@ button, a {
 
 .main-container {
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)),
+    linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
     url(images/main.png);
   height: 90vh;
   background-position: center;
@@ -329,7 +329,7 @@ footer {
   bottom: 0;
   left: 0;
   z-index: 1000;
-  background: rgba(254, 252, 252, 0.8);
+  background: rgba(254, 252, 252, 0.5);
   display: flex;
   justify-content: center;
   align-items: flex-start;
